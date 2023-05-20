@@ -17,7 +17,7 @@
   }
   * {
     /* border: 1px solid white; */
-    background-color: rgb(17, 0, 35);
+    background-color: rgb(15 23 42);
     text-decoration: none;
   }
 
@@ -88,7 +88,8 @@
     position: relative;
     min-width: 130px;
     margin: 0;
-    margin-top: 4px;
+    margin-top: 10px;
+
   }
 
   .experienceDescription1 {
@@ -100,18 +101,21 @@
   .jobRole {
     display: flex;
     flex-direction: column;
+    align-content: center;
   }
 
   .roleDescription {
     /* display: flex; */
     min-width: 80%;
+    margin-top: 5px;
   }
 
   .title {
     font-size: 1.25rem;
     color: var(--text-color-white);
-    margin-top: 0;
+    margin-top: 5px;
     margin-left: 0;
+    margin-bottom: 0;
   }
 
   .company {
@@ -131,8 +135,9 @@
   }
 
   .projects {
-    color: var(--text-color-gold);
+    color: var(--text-color-blue);
     font-size: 1.5rem;
+    margin-left: 0;
   }
 
   .projectPic {
