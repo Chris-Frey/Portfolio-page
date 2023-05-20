@@ -110,10 +110,14 @@
   .title {
     font-size: 1.25rem;
     color: var(--text-color-white);
+    margin-top: 0;
+    margin-left: 0;
   }
 
   .company {
     color: var(--text-color-fade);
+    margin: 0;
+
   }
 
   .orange_highlight {
