@@ -143,6 +143,12 @@ p {
   color: var(--text-color-white);
 }
 
+.titleGroup {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
 .company {
   color: var(--text-color-fade);
 }
