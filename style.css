@@ -1,0 +1,137 @@
+:root {
+  font-family: 'Prompt';
+  --background-color: rgb(15 23 42);
+  --text-color-fade: rgb(187, 184, 184);
+  --text-color-white: #e2e8f0;
+  --text-color-pink: #ff5792;
+  --text-color-orange: rgb(255, 184, 54);
+  --text-color-blue: #49ace9;
+  --text-color-gold: #d5971a;
+  --text-color-green: #49e9a6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid white; */
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  margin: 10px;
+  background-color: var(--background-color);
+}
+
+.pageRight {
+  margin-top: 200px;
+  margin-left: 20px;
+  min-width: 250px;
+  max-width: 400px;
+  border-left: 1px solid var(--text-color-fade);
+}
+
+.projects {
+  color: var(--text-color-gold);
+  font-size: 1.5rem;
+
+}
+
+.projectPic {
+  width: 200px;
+  margin: 20px;
+  padding-top: 60px;
+  /* border:1px solid white; */
+}
+
+.pageLeft {
+  /* width: auto ; */
+  max-width: 60%;
+}
+
+.contact {
+  display: flex;
+  align-content: left;
+  justify-content: space-between;
+  margin-left: 20px;
+  width: 100px;
+  list-style: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid var(--text-color-green); */
+  /* width: 24px;
+  height: 24px; */
+  border-radius: 1px;
+  /* background-color: var(--text-color-green); */
+  color: var(--text-color-blue);
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 1000,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/* .button input[type="click"]:hover {
+  background-color: var(--text-color-blue);
+} */
+
+h1 {
+  font-size: 2rem;
+  color: var(--text-color-pink);
+  margin: 20px;
+}
+
+h3 {
+  color: var(--text-color-white);
+  margin: 20px;
+}
+
+h5 {
+  color: var(--text-color-fade);
+  margin: 20px;
+}
+
+p {
+  color: var(--text-color-fade);
+  margin-left: 20px;
+}
+
+.word_highlight {
+  color: var(--text-color-blue);
+}
+
+.experienceDate {
+  display: block;
+  min-width: 150px;
+}
+.experienceDescription1 {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.jobRole {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 5vw;
+  color: var(--text-color-white);
+}
+
+.company {
+  color: var(--text-color-fade);
+}
+
+.orange_highlight {
+  color: var(--text-color-orange);
+}
